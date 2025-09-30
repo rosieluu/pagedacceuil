@@ -29,14 +29,14 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Extern.fr',
+    name: 'Externship.fr',
     description: 'Connect students and companies through short, flexible projects',
     link: '', // Mets un lien si tu en as
     video: '', // Mets une vidéo si tu en as
     id: 'externfr',
   },
   {
-    name: 'HomeLens',
+    name: 'HomeLensFast',
     description: 'Turn every house into a perfect shot',
     link: '', // Mets un lien si tu en as
     video: '', // Mets une vidéo si tu en as
