@@ -144,7 +144,7 @@ export default function Personal() {
             <ul className="list-disc pl-5 text-zinc-700 dark:text-zinc-400">              
               <li>I speak Vietnamese, French, English and am learning Chinese </li>
               <li>Azure Data Engineer Certified, 7 years of Data Consulting in France </li>
-              <li>I am a listener, hiker and learner</li>
+              <li>A listener, hiker and learner</li>
             </ul>
           </div>
           {/* Photo à droite, taille ~180px, ronde */}
