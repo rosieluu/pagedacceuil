@@ -126,20 +126,33 @@ function MagneticSocialLink({
 export default function Personal() {
   return (
     <motion.main
-      className="space-y-24"
+      className="space-y-24 relative"
       variants={VARIANTS_CONTAINER}
       initial="hidden"
       animate="visible"
     >
+      {/* Section d'intro avec photo et texte côte à côte */}
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <div className="flex-1">
-          <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
-          </p>
+        <div className="flex items-center gap-8">
+          {/* Bloc texte */}
+          <div>
+            <h1 className="text-2xl font-bold mb-2">Hi, it's Hong!</h1>
+            <p className="mb-2 text-zinc-600">Welcome to my Home Page!</p>
+            <ul className="list-disc pl-5 text-zinc-700">
+              <li>I speak Vietnamese, French, English and am learning Chinese </li>
+              <li>Azure Data Engineer Certified, 7 years of Data Consulting in France </li>
+              <li>I am a listener, hiker and learner</li>
+            </ul>
+          </div>
+          {/* Photo à droite, taille ~180px, ronde */}
+          <img
+            src="/photo.jpg" // Mets ton image dans le dossier 'public'
+            alt="Ma photo"
+            className="w-[180px] h-[180px] rounded-full object-cover border-2 border-white shadow"
+          />
         </div>
       </motion.section>
 

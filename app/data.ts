@@ -29,47 +29,52 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
-    description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
-    id: 'project1',
+    name: 'Extern.fr',
+    description: 'Connect students and companies through short, flexible projects',
+    link: '', // Mets un lien si tu en as
+    video: '', // Mets une vidéo si tu en as
+    id: 'externfr',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project2',
+    name: 'HomeLens',
+    description: 'Turn every house into a perfect shot',
+    link: '', // Mets un lien si tu en as
+    video: '', // Mets une vidéo si tu en as
+    id: 'homelens',
   },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
+    company: 'Data Formation',
+    title: 'Founder',
     start: '2024',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: '',
+    id: 'work4',
+  },
+  {
+    company: 'BNP Paribas Arval',
+    title: 'Freelance Data Consultant',
+    start: '2024',
+    end: '2025',
+    link: 'https://www.arval.fr/',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
+    company: 'Mydral',
+    title: 'Expert Data Consultant',
+    start: '2020',
     end: '2024',
-    link: 'https://ibelick.com',
+    link: 'https://www.mydral.com/',
     id: 'work2',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
+    company: 'Maeva.com',
+    title: 'Revenue Manager',
+    start: '2018',
+    end: '2020',
+    link: 'https://www.maeva.com/',
     id: 'work3',
   },
 ]
