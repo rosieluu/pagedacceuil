@@ -139,9 +139,9 @@ export default function Personal() {
         <div className="flex items-center gap-8">
           {/* Bloc texte */}
           <div>
-            <h1 className="text-2xl font-bold mb-2">Hi, it's Hong!</h1>
-            <p className="mb-2 text-zinc-600">Welcome to my Home Page!</p>
-            <ul className="list-disc pl-5 text-zinc-700">
+            <h1 className="text-2xl font-bold mb-2 text-zinc-900 dark:text-zinc-50">Hi, it's Hong!</h1>
+            <p  className="mb-2 text-zinc-600 dark:text-zinc-400">Welcome to my Home Page!</p>
+            <ul className="list-disc pl-5 text-zinc-700 dark:text-zinc-400">              
               <li>I speak Vietnamese, French, English and am learning Chinese </li>
               <li>Azure Data Engineer Certified, 7 years of Data Consulting in France </li>
               <li>I am a listener, hiker and learner</li>

@@ -111,19 +111,11 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/rosieluu',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
-  },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.linkedin.com/in/luu-bich-hong/',
   },
 ]
 
